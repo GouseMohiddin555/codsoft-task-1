@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <h1>M.Mahammed gouse mohiddin</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a web developer with a passion for creating clean and efficient websites. With a strong focus on user experience and a background in front-end technologies, I'm dedicated to building responsive and intuitive web applications.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <h3>React.js</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects"></section>
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="projects-grid">
+                <div class="project">
+                    <h2> Weather App</h2>
+                    <p>A simple weather application that fetches real-time weather data based on the user’s current location or a searched city. The app displays current temperature, weather conditions (like sunny, cloudy, or rainy), and a 7-day forecast. It was built using HTML, CSS, JavaScript, and an API from OpenWeatherMap.</p>
+                </div>
+                <div class="project">
+                    <h2>Todo List</h2>
+                    <p>A dynamic and user-friendly todo list application where users can add, delete, and mark tasks as completed. The app keeps track of tasks and organizes them in a clean and minimal interface. It was created using HTML, CSS, and vanilla JavaScript, with local storage to save tasks even after refreshing the page.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section bg-light">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>To learn more about my work experience and skills, download my resume below.</p>
+            <a href="Resume__1_.pdf" class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
